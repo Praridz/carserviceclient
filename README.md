@@ -1,12 +1,11 @@
 # NUEVOS COMPONENTES:
+- encabezado: Aqui se generó el encabezado en donde se puede navegar entre las vistas de la aplicacion de una forma sencilla, con 2 botones: (car/owner list) y (owner list).
 
-*encabezado: Aqui se generó el encabezado en donde se puede navegar entre las vistas de la aplicacion de una forma sencilla, con 2 botones: (car/owner list) y (owner list).
+- car-list-owner: Aqui se hizo la logica en donde se asocia cada vehiculo existente en la api, con su correspondiente dueño, en caso de no tener dueño se muestra el respectivo mensaje. Tambien hay la opcion de clickear sobre los dueños asociados a los vehiculos para editarlos.
 
-*car-list-owner: Aqui se hizo la logica en donde se asocia cada vehiculo existente en la api, con su correspondiente dueño, en caso de no tener dueño se muestra el respectivo mensaje. Tambien hay la opcion de clickear sobre los dueños asociados a los vehiculos para editarlos.
+- owner-list: Componente en donde se enlistan los dueños existentes en la api, con su respectivo nombre e imagen en miniatura. Tambien hay un boton de agregar un nuevo dueño, y la opcion de seleccionar a varios para eliminar de a conjuntos.
 
-*owner-list: Componente en donde se enlistan los dueños existentes en la api, con su respectivo nombre e imagen en miniatura. Tambien hay un boton de agregar un nuevo dueño, y la opcion de seleccionar a varios para eliminar de a conjuntos.
-
-*owner-edit: Componente en donde se puede editar la información de un dueño (nombre, dni y profesion).
+- owner-edit: Componente en donde se puede editar la información de un dueño (nombre, dni y profesion).
 
 
 # CarServiceClient

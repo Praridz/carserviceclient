@@ -9,7 +9,7 @@
 
 # FUNCIONALIDADES AGREGADAS:
 - Se muestra la lista de carros con el dueño de cada uno al lado.
-- Se puede modificar el dueño de un carro, en la vista de car-edit, teniendo en cuenta los dueños existentes.
+- Se puede modificar o agregar un dueño a un carro, en la vista de car-edit, teniendo en cuenta los dueños existentes.
 - Se muestra la lista de dueños, con la posibilidad de seleccionar a varios para eliminarlos simultaneamente.
 - Se pueden agregar nuevos dueños y editarlos.
 - Al eliminar un dueño con algun carro asociado, al ir a la vista de car-list, ya no se encontrará asociado a ningun carro.

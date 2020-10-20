@@ -17,9 +17,10 @@ export class CarListOwnerComponent implements OnInit {
 
   ngOnInit() {
     //me traigo los carros con cool-cars para mostrarlos, debido a que necesito acceder al id del owner y no requiero el href de los carros.
-    this.carService.getAll("cool-cars").subscribe(data => {
-      this.cars = data;
+    this.carService.getAll("cars").subscribe(data => {
+      this.cars = data._embedded.cars;
       for (const car of this.cars) {
+        car.id = car._links.self.href.slice(48);
         this.giphyService.get(car.name).subscribe(url => car.giphyUrl = url);
       }
 
